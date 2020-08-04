@@ -18,3 +18,8 @@ SELECT COUNT(NAME)
 FROM WORLD
 WHERE AREA > 1000000
 
+5.What is the total population of ('Estonia', 'Latvia', 'Lithuania')
+SELECT SUM(POPULATION)
+FROM WORLD
+WHERE NAME IN ('Estonia', 'Latvia', 'Lithuania')
+
